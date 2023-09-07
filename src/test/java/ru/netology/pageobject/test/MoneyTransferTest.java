@@ -30,7 +30,7 @@ public class MoneyTransferTest {
     }
 
     @Test
-    void positiveTransferBetweenCard() {         //позитивный тест на операцию перевода денег между картами
+    void positiveTransferBetweenCard() {   //позитивный тест на операцию перевода денег между картами
 
         var dashboardPage = new DashboardPage();
         var balanceFirstCard = dashboardPage.getCardBalance(0);//получение баланса карты №1
