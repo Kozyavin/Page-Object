@@ -1,8 +1,4 @@
-package ru.netology.pageobject.pageObject;
-
-import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.selector.ByText;
-import ru.netology.pageobject.data.DataHelper;
+package ru.netology.pageobject.pageobject;
 
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.byText;
@@ -25,7 +21,7 @@ public class ReplenishmentCard {
 
     public void invalidReplenishmentCard(Integer amountToTransfer, String cardNumber) {
         replenishmentCard(amountToTransfer, cardNumber);
-        $("[data-test-id = error-notification] input").shouldBe(visible);  //проверка на появление сообщения о недопустимости операции
+        $(".notification div").shouldBe(visible);  //проверка на появление сообщения о недопустимости операции
     }
 
 }

@@ -4,10 +4,10 @@ package ru.netology.pageobject.test;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import ru.netology.pageobject.data.DataHelper;
-import ru.netology.pageobject.pageObject.DashboardPage;
-import ru.netology.pageobject.pageObject.LoginPage;
-import ru.netology.pageobject.pageObject.ReplenishmentCard;
-import ru.netology.pageobject.pageObject.VerificationPage;
+import ru.netology.pageobject.pageobject.DashboardPage;
+import ru.netology.pageobject.pageobject.LoginPage;
+import ru.netology.pageobject.pageobject.ReplenishmentCard;
+import ru.netology.pageobject.pageobject.VerificationPage;
 
 import static com.codeborne.selenide.Selenide.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
